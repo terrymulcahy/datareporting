@@ -1,0 +1,84 @@
+Story Memo Log
+
+Week Eleven
+
+I have decided to abandon the prior idea, but to use some of the same methodology for a new topic. Since looking at census data in class I have been more interested in people and their connections. I was hoping to look at reports of same-sex couples by state and to first look at the differences here and the changes over time. Have certain states seen an influx of same-sex couples (especially if over the 10 year census period we supposedly saw a population shift south and west, did this include same sex couples? And at the same proportions as other people? I suspect not.) This will involve likely looking at “Unmarried same sex couplings.” The census website has some summary data, and 2012 data on the numbers of same sex couples and claims that married same-sex couples were counted for the first time in 2000. However, I have had a tough time finding those figures on American Fact Finder. I will keep trying different search terms, but I was able to find unmarried couple data by state. This is of course better in some senses, as same sex marriage is not legal in all states, and certainly was not in prior years. I would like to look for married couple data after first getting unmarried data, just in case it proves to be a useful addition.
+
+Once I have state-level data, I would like to compare this with some other factors to see how they related to the number of same-sex couples. I would especially like to tie this to FBI hate-crime data by sexuality, as recent news reports have suggested that growing recognition of same-sex households has lead to an upsurge in violence in areas like NY. I would like to take that data nationwide and to see if there is a correlation. 
+
+I would also like to look at education, marriage age and/or Medicaid data for mental health treatment (this would be useful if it were broken down for gay patients in some way, but I’m not sure if that is available. Some sites offer summaries of that and allude to that data. But I will have to dig deeper to see if that is available and relevant.)
+
+As this data doesn’t represent the numbers of gay people, but rather the numbers of households who choose to live openly as same-sex couples and to report that they do, it might provide interesting story ideas for individual states (especially those that do not have gay marriage laws or are thought of as having especially “gay friendly” cities).
+
+On a side note I have contacted OKCupid, as they use data in interesting ways on their blog OKTrends. I have asked if state-level data is available for their users and for their users’ response rates. This might be an interesting avenue that I would focus on, contrasted with census data – if I can get it. I have sent a similar request to match.com to see if either oblige.
+
+Depending on whether they will release this data, my focus may shift…
+
+Week twelve
+
+PART ONE
+
+Gathered all data from 2007-2012 (using unmarried partner households by sex of partner, ACS 3 year estimates [this was the best available for each of these 5 years] by state) there was data available in other sheets, but this seemed the best, simplest and easiest to manipulate available)
+
+Organized all five years into one sheet, with same sex data in sheet one (my focus) but kept opposite sex data and “other households” in two separate sheets. This might be useful down the line.
+
+Make column for all same sex pairings.
+
+ http://www.census.gov/population/www/socdemo/Inc-Opp-sex-2009-to-2010.pdf
+
+Thank added column to calculate % change over year (sorted by state, calculate percentage change then copy down. Then I can copy cell data as values only to allow for sorting (get rid of underlying formulae). THEN filter by all the 2007s and delete those values as they are calculating using figures from the 2012 state above)
+
+Then I can filter out all 2007 data in sheet (irrelevant to percentage change) and sort to see where the biggest and smallest changes occurred. Do same for female-female and male-male columns
+
+Also hid all margin for error columns – useful to know, but makes looking at the data more difficult. Added an id column to keep things in order, just in case.
+
+Added a column to calculate the difference between gay and lesbian couples.
+
+Added columns to calculate the percent of all unmarried households that gay, lesbian and all samesex pairings represented
+
+First indications: 
+
+There were more female couple households than male overall, but not by a huge margin.
+
+CA had the most male samesex couples in all five years, followed by FL, NY and TX  all in 2007.
+
+There were similar results for female couples but NY just overtook TX
+
+The biggest difference between gay and lesbian couples was by far in CA in 2007, 2008 and 2009 where there were many more gay couples than lesbian and the difference was the largest out of all the data here. There were many more female samesex couples in MA though, in 2010, 2011 and 2012, followed by NC in 2012. 
+
+Same sex couples overall made up the most percent of all unmarried households in D.C. in all five years. Followed by MA in 2007 and interestlingly – UT and GA in 2007 where they made up 16.3% and 15.7% (respectively) of all unmarried households. This trend is fairly accurate for gay male couples too, but lesbian couples made up a higher percentage of unmarried households in MA in 2007, 08 and 09 just following D.C. in 07.
+
+Discounting Puerto Rico (I may have to remove the data for that area, as it is not represented in the FBI data. I’m keeping it in, just for now.) same sex couples made up the least percent of all unmarried households in WY in 2012 and 2011 and in ND in 2012.
+
+Biggest influx of same sex couples was to NH between 2010-2011 followed by VT between 2010-2011
+Biggest loss of same sex couples was WY between 2009-2010 followed by NH in 2007-2008
+
+Interestingly NH saw a steady decline in all same sex couples and then a sharp increase in 2010-2011 (the year that marriage equality was legalized there, despite this data only tracking unmarried households. It would seem to suggest an overall change in perceived acceptance of gays in the state)
+
+Need to compare these to the same stats for all households/opposite. Does this play into the general narrative of people moving south and west? Or is there some element of attitudes to gay households changing?
+
+PART TWO
+
+Gathered FBI bias crime stats by state (table 13 on this site: http://www.fbi.gov/about-us/cjis/ucr/hate-crime/2008) for 2007-2012. 
+
+Worked on Excel sheet, which is not presented in a very usable way (lots of merged cells etc). 
+
+I filtered the ‘agency’ column to just include “total” and copy/pasted that into my final project excel workbook, in a separate sheet. I then tweaked the columns so that it just includes the important things (to my needs: it didn’t make sense to keep data ‘by each quarter’ as I did not have corresponding data on population/couplings by quarter, for instance.)
+
+Added a total column to total up all bias related crimes. Added a column to find out what percent of all hate crimes were homophobic in nature. Added a column to figure out the percentage change, year on year of homophobia-motivated hate crimes (using the same method as above).
+
+Sorting the results, my initial findings were:
+
+(Bearing in mind that these reference only reported crimes)
+
+CA had the most crimes based on sexual orientation in all five years (but also the most same sex couplings and the most hate crimes of any kind) this was followed by NY in 2009, 10, 11 and 12.
+
+Discounting MI in 2011, where only one crime occurred total, the highest percent of all hate crimes that were homophobic in nature were in D.C. in all five years. This was followed by GA in 2007, VT in 2010, IA in 2011 and LA in 2011
+
+AK in 2012 saw the largest increase in homophobic hate crimes from the previous year, with a 1200% increase to 13 crimes. This was followed by MT in 2012, SD and IN in 2008 and AL in 2011.
+
+Discounting years where there were only a handful of homophobic hate crimes in a state: OR saw a 77% decrease in homophobic hate crimes in 2012, followed by TX in 2012 and MT in 2012. 
+
+
+
+
